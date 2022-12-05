@@ -1,1 +1,1 @@
-{"command": "train", "checkpoint_path": "results/gcn/checkpoints", "save_dir": "results/gcn", "default_checkpoint_location": "results/gcn/checkpoints/checkpoint.ckpt"}
+{"command": "train", "checkpoint_path": "results/gat/checkpoints", "save_dir": "results/gat", "default_checkpoint_location": "results/gat/checkpoints/checkpoint.ckpt"}
