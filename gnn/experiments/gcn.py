@@ -1,4 +1,5 @@
 from ..models.gcn import GCN
+from ..models.gat import GAT
 from jax import numpy as jnp
 import jax
 

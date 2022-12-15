@@ -1,0 +1,41 @@
+{
+    "gnn": {
+        "name": "gnn",
+        "project": {
+            "models": {
+                "gat": {
+                    "name": "gat",
+                    "exports": [
+                        "GAT"
+                    ],
+                    "errors": []
+                },
+                "gcn": {
+                    "name": "gcn",
+                    "exports": [
+                        "GCN"
+                    ],
+                    "errors": []
+                }
+            },
+            "data_loaders": {},
+            "trainers": {},
+            "experiments": {
+                "gcn": {
+                    "name": "gcn",
+                    "errors": [],
+                    "imports": [
+                        "models"
+                    ]
+                },
+                "gat": {
+                    "name": "gat",
+                    "errors": [],
+                    "imports": [
+                        "models"
+                    ]
+                }
+            }
+        }
+    }
+}
