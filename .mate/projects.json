@@ -8,14 +8,34 @@
                     "exports": [
                         "GAT"
                     ],
-                    "errors": []
+                    "errors": [],
+                    "dependencies": [
+                        [
+                            "flax",
+                            "0.6.2"
+                        ],
+                        [
+                            "jax",
+                            "0.4.1"
+                        ]
+                    ]
                 },
                 "gcn": {
                     "name": "gcn",
                     "exports": [
                         "GCN"
                     ],
-                    "errors": []
+                    "errors": [],
+                    "dependencies": [
+                        [
+                            "flax",
+                            "0.6.2"
+                        ],
+                        [
+                            "jax",
+                            "0.4.1"
+                        ]
+                    ]
                 }
             },
             "data_loaders": {},
